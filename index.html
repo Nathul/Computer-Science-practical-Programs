@@ -547,6 +547,21 @@ for i in range(1,n+1):
     print()`
     },
     {
+      title: "Perfect Number",
+      category: "Number theory",
+      code: `n = int(input("Enter a number: "))
+sum = 0
+
+for i in range(1, n):
+    if n % i == 0:
+        sum = sum + i
+
+if sum == n:
+    print("Perfect Number")
+else:
+    print("Not Perfect Number")`
+    },
+    {
       title: "Number Pyramid",
       category: "Pattern",
       code: `n=int(input("ENTER THE LIMIT: "))
